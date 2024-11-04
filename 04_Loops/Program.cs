@@ -129,17 +129,17 @@ namespace _04_Loops
 
             //Klavyeden girilen 3 basamaklı sayının basamakları toplamını hesaplayın
 
-            //Console.WriteLine("Sayıyı giriniz.");
-            //int number = int.Parse(Console.ReadLine());
-
-            //int ones, tens, hundres, sum;
-
-
-            //ones = number % 10;
-            //hundres = number / 100;
-            //tens = (number % 100)/10 ;
-            //Console.WriteLine(ones + "--" + tens + "--" + hundres);
-            //sum = ones + tens + hundres;
+            Console.WriteLine("Sayıyı giriniz.");
+            int number = int.Parse(Console.ReadLine());
+            
+            int ones, tens, hundres, sum;
+            
+            
+            ones = number % 10;
+            hundres = number / 100;
+            tens = (number % 100)/10 ;
+            Console.WriteLine(ones + "--" + tens + "--" + hundres);
+            sum = ones + tens + hundres;
 
             //Console.WriteLine(sum);
 
