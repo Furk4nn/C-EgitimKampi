@@ -125,7 +125,6 @@ namespace _07_ForeachLoop
             #endregion
 
             Console.Read();
-
         }
     }
 }
